@@ -1,0 +1,168 @@
+.aboutjumbotron {
+
+    background-image: url("../images/yxsawndc1ymmyydd7ia9.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    height: 80vh;
+}
+
+.aboutjumbotron-text {
+    text-align: center;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.aboutjumbotron-text h1 {
+    font-size: 60px;
+    color: white;
+    font-family: serif;
+}
+
+.aboutjumbotron-text p {
+    font-size: 25px;
+    color: black;
+    font-family: serif;
+}
+section {padding:2rem;}
+.bg-primary {background-color:#007aeb;color:#fff;}
+.bg-white {background-color:#F8F8FF;}
+.team
+{
+	width: 100%;
+	padding-top: 93px;
+	padding-bottom: 60px;
+	background: #FFFFFF;
+    padding-left: 200px;
+   
+}
+.team_row
+{
+	margin-top: 43px;
+}
+.team_col
+{
+	margin-bottom: 40px;
+}
+.team_item
+{
+	width: 100%;
+}
+.team_image
+{
+	width: 130px;
+	height: 160px;
+	border-radius: 6px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -86px;
+	z-index: 5;
+}
+.team_image img
+{
+	max-width: 100%;
+}
+.team_body
+{
+	width: 100%;
+	padding-top: 108px;
+	padding-bottom: 24px;
+	background: #FFFFFF;
+	border-radius: 6px;
+	box-shadow: 0px 1px 10px rgba(29,34,47,0.1);
+	text-align: center;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.team_item:hover .team_body
+{
+	box-shadow: 0px 5px 40px rgba(29,34,47,0.15);
+}
+.team_title a
+{
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	font-weight: 700;
+	color: #384158;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.team_title a:hover
+{
+	color: #14bdee;
+}
+.team_subtitle
+{
+	font-size: 14px;
+	font-weight: 400;
+	color: #76777a;
+	margin-top: 6px;
+}
+.social_list
+{
+	margin-top: 16px;
+    margin-right: 27px;
+}
+.social_list ul li
+{
+	display: inline-block;
+}
+.social_list ul li:not(:last-child)
+{
+	margin-right: 10px;
+}
+.social_list ul li a i
+{
+	font-size: 18px;
+	color: #76777a;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.social_list ul li:hover a i
+{
+	color: #14bdee;
+}
+.team_col .team_item
+{
+	padding-left: 6px;
+	padding-right: 6px;
+}
+.team_col:first-child .team_item
+{
+	padding-left: 0;
+	padding-right: 6px;
+}
+.team_col:nth-child(4n) .team_item
+{
+	padding-left: 6px;
+	padding-right: 0;
+}
+.section_title_container
+{
+	max-width: 600px;
+	margin: 0 auto;
+}
+.section_title
+{
+	line-height: 1.2;
+    padding-right: 200px;
+}
+.section_subtitle
+{
+	line-height: 1.85;
+	margin-top: 14px;
+}
+

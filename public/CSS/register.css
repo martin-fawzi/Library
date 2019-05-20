@@ -1,0 +1,30 @@
+
+.signupForm {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    max-width: 700px;
+    max-height: 100%;
+    margin: 3% auto 3% auto;
+}
+
+.signupFormElement {
+    margin: 20px;
+}
+
+#signupFormbtn {
+    margin: 10px;
+    text-align: center;
+}
+
+#signupFormTitle {
+    text-align: center;
+}
+
+#signupFormWelcome {
+    text-align: center;
+}
+
+.navbtn {
+    border: none;
+}

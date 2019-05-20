@@ -1,0 +1,29 @@
+.signinForm {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    max-width: 500px;
+    max-height: 100%;
+    margin: 3% auto 3% auto;
+}
+
+.signinFormElement {
+    margin: 20px;
+}
+
+#signinFormbtn {
+    margin: 10px;
+    text-align: center;
+}
+
+#signinFormTitle {
+    text-align: center;
+}
+
+#signinFormWelcome {
+    text-align: center;
+}
+
+.navbtn {
+    border: none;
+}

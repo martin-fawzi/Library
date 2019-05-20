@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Future Academy</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/register.css">
+</head>
+
+<body>
+    <nav class=" navbar navbar-inverse navbar-expand-md navbar-dark bg-dark sticky-top ">
+            <div>
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" width="30" height="30" class="d-inline-block align-top" alt=""> Future Academy Library</a>
+            </div>
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="register.html" class="navbtn nav-link btn-link">Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="login.html" class="navbtn nav-link btn-link">Login</a>
+                        </li>
+                        <li>
+                            <div class="nav-item btn-group">
+                                <button type="button" class="navbtn nav-link btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/lang-btn.png" width="17px"> Lang
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item disabled" href="index.html">En</a>
+                                    <a class="dropdown-item" href="index-ar.html">عربى</a>
+                                </div>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+
+    <div id="signupForm">
+        <div class="signupForm container">
+            <h1 id="signupFormTitle">Sign up</h1>
+            <h6 id="signupFormWelcome">We are excited to have you as part of our community</h6>
+            <form id="signupForm" name="signupForm" method="post" action="register.html" onSubmit="return depvalidate()">
+                <div class="signupFormElement">
+                    <div class="input-group">
+                        <input type="text" id="f-name" name="first_name" class="form-control" placeholder="First Name" onkeyup="firstnameVali()" onblur="firstnameVali()">
+                        <input type="text" id="l-name" name="last_name" class="form-control" placeholder="Last Name" onkeyup="lastnameVali()" onblur="lastnameVali()">
+                    </div>
+                    <span id="f-namespan" class="text-danger"> </span>
+                    <span id="l-namespan" class="text-danger"> </span>
+
+                </div>
+
+                <div class="signupFormElement">
+                    <input type="number" class="form-control" name="InputID" id="InputID" placeholder="ID" onkeyup="idVali()" onblur="idVali()">
+                    <span id="idspan" class="text-danger"> </span>
+                </div>
+
+                <div class="signupFormElement">
+                    <input type="email" id="inputEmail" name="inputEmail" class="form-control" placeholder="E-mail" onchange="emailVali()" onblur="emailVali()">
+                    <span id="emailspan" class="text-danger"> </span>
+                </div>
+
+
+                <div class="signupFormElement">
+                    <input type="password" id="inputPassword" name="inputPassword" class="form-control" placeholder="Password" onkeyup="passvali()" onblur="passvali()">
+                    <span id="passspan1" class="text-danger"> </span>
+                </div>
+
+                <div class="signupFormElement">
+                    <input type="password" class="form-control" id="inputPassword2" name="inputPassword2" placeholder="Repeat Password" onkeyup="passconfirmvali()" onblur="passconfirmvali()">
+                    <span id="passspan2" class="text-danger"> </span>
+                </div>
+
+                <div class="signupFormElement">
+                    <select name="department" class="form-control">
+                        <option value=" ">Select Your Department</option>
+                        <option>Computer Science</option>
+                        <option>Information System</option>
+                        <option>Business English</option>
+                        <option>Business Arabic</option>
+                    </select>
+                    <span id="depspan" class="text-danger"> </span>
+
+                </div>
+
+                <div class="signupFormElement">
+                    <select name="level" class="form-control" required>
+                        <option value=" ">Select Your Level</option>
+                        <option>First Level</option>
+                        <option>Second Level</option>
+                        <option>Third Level</option>
+                        <option>Fourth Level</option>
+                    </select>
+                </div>
+                <div id="signupFormbtn">
+                    <button class="btn btn-dark">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="JS/register.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+
+</html>

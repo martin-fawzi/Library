@@ -1,0 +1,44 @@
+
+.navbtn {
+    border: none;
+}
+
+
+.cells1{
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    text-align: center;
+}
+
+thead {
+    text-align: center;
+    font-size: 21px;
+}
+
+.customtd {
+    width: 16.6%;
+    position: relative;
+}
+
+.customtd:after {
+    content: '';
+    display: block;
+    margin-top: 100%;
+}
+
+.content {
+    height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: grey;
+}
+
+
+
+tr.waiting {
+    display: none;
+}

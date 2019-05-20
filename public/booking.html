@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="CSS/booking.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <title>Booking</title>
+</head>
+
+<body>
+
+    <nav class=" navbar navbar-inverse navbar-expand-md navbar-dark bg-dark sticky-top ">
+        <div>
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" width="30" height="30" class="d-inline-block align-top" alt=""> Future Academy Library</a>
+        </div>
+
+
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+
+
+        <div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="navbtn nav-link btn-link" href="/logout"> <img src="images/logout.png" width="17px"> Logout</a>
+                    </li>
+                    <li>
+                        <div class="nav-item btn-group">
+                            <button type="button" class="navbtn nav-link btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/lang-btn.png" width="17px"> Lang
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item disabled" href="index.html">En</a>
+                                <a class="dropdown-item" href="index-ar.html">عربى</a>
+                            </div>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <h1>Room one</h1>
+    <table class="cells1">
+        <thead>
+            <td>9 - 10</td>
+            <td>10 - 11</td>
+            <td>11 - 12</td>
+            <td>12 - 1</td>
+            <td>1 - 2</td>
+            <td>2 - 3</td>
+        </thead>
+        <tr>
+            <td class="customtd">
+                <div id="cell1" class="content" onclick="hello(id,0)"></div>
+            </td>
+            <td class="customtd">
+                <div id="cell2" class="content" onclick="hello(id,1)"></div>
+            </td>
+            <td class="customtd">
+                <div id="cell3" class="content" onclick="hello(id,2)"></div>
+            </td>
+            <td class="customtd">
+                <div id="cell4" class="content" onclick="hello(id,3)"></div>
+            </td>
+            <td class="customtd">
+                <div id="cell5" class="content" onclick="hello(id,4)"></div>
+            </td>
+            <td class="customtd">
+                <div id="cell6" class="content" onclick="hello(id,5)"></div>
+            </td>
+        </tr>
+        <tr class="waiting">
+            <td>
+                <div class="content"></div>
+            </td>
+            <td>
+                <div class="content"></div>
+            </td>
+            <td>
+                <div class="content"></div>
+            </td>
+            <td>
+                <div class="content"></div>
+            </td>
+            <td>
+                <div class="content"></div>
+            </td>
+            <td>
+                <div class="content"></div>
+            </td>
+        </tr>
+    </table>
+    
+    <h1>Room Two</h1>
+    <table class="cells1">
+        <thead>
+            <td>9 - 10</td>
+            <td>10 - 11</td>
+            <td>11 - 12</td>
+            <td>12 - 1</td>
+            <td>1 - 2</td>
+            <td>2 - 3</td>
+        </thead>
+        <tr>
+            <td class="customtd">
+                <div id="cell1" class="content" onclick="hello2(id,0)"></div>
+            </td>
+            <td class="customtd">
+                <div id="cell2" class="content" onclick="hello2(id,1)"></div>
+            </td>
+            <td class="customtd">
+                <div id="cell3" class="content" onclick="hello2(id,2)"></div>
+            </td>
+            <td class="customtd">
+                <div id="cell4" class="content" onclick="hello2(id,3)"></div>
+            </td>
+            <td class="customtd">
+                <div id="cell5" class="content" onclick="hello2(id,4)"></div>
+            </td>
+            <td class="customtd">
+                <div id="cell6" class="content" onclick="hello2(id,5)"></div>
+            </td>
+        </tr>
+        <tr class="waiting">
+            <td>
+                <div class="content"></div>
+            </td>
+            <td>
+                <div class="content"></div>
+            </td>
+            <td>
+                <div class="content"></div>
+            </td>
+            <td>
+                <div class="content"></div>
+            </td>
+            <td>
+                <div class="content"></div>
+            </td>
+            <td>
+                <div class="content"></div>
+            </td>
+        </tr>
+    </table>
+    <script src="JS/booking.js"></script>
+
+</body>
+
+</html>
